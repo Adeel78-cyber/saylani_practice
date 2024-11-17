@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+}
+
+nav.navbar{
+    background-color: #00855dfd;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+}
+
+div.logo{
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+    margin-top: 10px;
+    display: inline-block;
+    }

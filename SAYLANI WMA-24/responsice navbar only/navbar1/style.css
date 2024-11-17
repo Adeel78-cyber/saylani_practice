@@ -1,0 +1,35 @@
+.a{
+    padding: 5px 100px 5px 70px;
+    background-color: #f29d13;
+    height: 50.92px;
+    /* max-width: 100vw;
+        max-height: 100vh; */
+        border: 5px solid #f29d13;
+        border-radius: 10px;
+}
+
+.b>ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    color: black;
+    font-weight: 800;
+    max-width: 100vw;
+    max-height: 100vh;
+    font-size: 20px;
+    text-align: center;
+    border: transparent 2px #f29d13;
+    border-radius: 8px;
+    margin:  15px;
+}
+
+li:hover{
+    background-color: black;
+    color: #f29d13;
+    transition: 3.s;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 8px;
+    transition: all 0.2s ease ;
+    
+}

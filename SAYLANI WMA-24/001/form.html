@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+    <form action="" method="get" >
+
+        <fieldset>
+            <legend>Personal Information</legend>
+    <label for="name">Name :
+        <input type="text" placeholder="Enter Your Name" id="name" required>
+    </label>
+
+    <label for="Password" ><strong>Password :</strong> 
+        <input type="password" placeholder="Enter Your Password" id="Password">
+    </label>
+
+<label for="email">Email:
+
+    <input type="email" placeholder="Enter Your Email" id="email">
+</label>
+
+<label for="number">Number:
+
+    <input type="number" id="number" placeholder="Whats Your Age">
+</label>
+</fieldset>
+
+<fieldset>
+    <legend>Other Information</legend>
+<label for="tel">Telephone:
+
+    <input type="tel" placeholder="Enter Your Number" id="tel">
+</label>
+
+<label for="date"><abbr title="Date Of Birth">D.O.B</abbr></label>
+
+    <input type="date"  id="date" placeholder="D.O.B">
+</label>
+    <label for="submit">
+        <input type="submit" id="submit" placeholder="submit" align="center" >
+    </label>
+</fieldset>
+    <fieldset>
+        <fieldset>
+            <legend>Office Use Only</legend>
+            
+            <label for="approval">Approval Status:</label>
+            <input type="text" id="approval" name="approval" disabled value="Pending">
+            
+            <label for="date_approved">Date Approved:</label>
+            <input type="date" id="date_approved" name="date_approved" disabled>
+            
+            <label for="staff_notes">Staff Notes:</label>
+            <textarea id="staff_notes" name="staff_notes" rows="4" disabled></textarea>
+          </fieldset>
+        
+          <input type="submit" value="Submit">
+        
+    </fieldset>
+</form>
+</body>
+</html>

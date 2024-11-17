@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header></header>
+  <div class="body">
+    <nav class="navbar">
+      <div class="logo">
+        <h1>Forms</h1>
+      </div>
+
+      <div id="page">
+        <a href="https://www.snapchat.com">Home</a>
+        <a href="https://www.whatsapp.com">About</a>
+        <a href="https://www.linkedin.com">Contact</a>
+      </div>
+    </nav>
+    </header>
+
+    <main>
+      <div class="heading">
+        <h2>Personal Details</h2>
+      </div>
+
+      <form action="/submit.html" target="_blank" method="get">
+        <fieldset>
+          <!-- <legend>Personal Details</legend> -->
+          <div class="form">
+            <label for="name">
+              Full Name:
+              <input type="text" id="name" placeholder="Enter your Name" required>
+            </label>
+
+            <label for="num">
+              Number:
+              <input type="tel" id="num" placeholder="Enter Your number" required>
+            </label>
+          </div>
+
+          <div class="form">
+            <label for="mail">
+              E-Mail:
+              <input type="email" id="mail" placeholder="Enter Your Email">
+            </label>
+
+            <label for="dob">
+              D-O-B:
+              <input type="month"  id="dob" placeholder="Date Of Birth">
+            </label>
+          </div>
+
+          <div class="form">
+            <label for=""cnic>
+              Cnic:
+              <input type="number" name="cnic" id="cnic" placeholder="ENter Your Cnic">
+            </label>
+
+            <label for="postcode">
+              Post Code:
+              <input type="number" name="postcode" id="postcode">
+            </label>
+          </div>
+
+          <div class="drop">
+            <label for="address">
+              Address:
+          <input  type="text" name="address" id="address" placeholder="Enter your address">
+        </div>
+
+        <div class="drop">
+          <label for="ms">
+            Maritial Status:
+            <select name="ms" id="ms">
+              <option >Select Options</option>
+              <option value="male">Male</option>
+              <option value="Female">Female</option>
+            </select>
+          </label>
+        </div>
+        
+        <div class="drop">
+          <label for="lq">
+            Last Qualification:
+            <select name="lq" id="lq">
+              <option > Select Options</option>
+              <option value="inter">Intermediate</option>
+              <option value="matric">Matric</option>
+              <option value="Graduate">Graduate</option>
+
+            </select>
+
+            <div class="drop">
+              <label for="sc">
+                Select City:
+                <!-- <br> -->
+                <select name="sc" id="sc">
+                  <option value="Karachi">Karachi</option>
+                  <option value="hyderabad">Hyderabad</option>
+                  <option value="Sukker">Sukker</option>
+                  <option value="Quetta">Quetta</option>
+                  <option value="Islamabad">Islamabad</option>
+                </select>
+              </label>
+            </div>
+          </label>
+        </div>
+
+        <input type="submit" id="submit" placeholder="submit">
+        </fieldset>
+      </form>
+    </main>
+
+  </div>
+
+</html>
